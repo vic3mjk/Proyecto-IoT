@@ -31,3 +31,12 @@ Sensor de Sonido (KY-038) Resultado físico (Caracterización de ruido): Se ejec
 
 Filtro y criterio de elección de N
 Filtro implementado: Media móvil con N = 5. Criterio de elección: Se eligió N = 5 porque reduce el ruido inyectado sobre las lecturas de los sensores (suavizando las variaciones de los ppm del MQ-135 y los picos de decibeles del KY-038) manteniendo un retardo bajo, lo que permite una respuesta rápida y estable en la medición.
+
+
+--- GT3 ---
+
+Los tópicos que incluimos en nuestro proyecto serán los siguientes:
+  - curso/E08/P2/nodo1
+  - curso/E08/P2/nodo1/estado
+  - curso/E08/P2/nodo1/cmd
+  - curso/E08/P2/nodo1/alertas
